@@ -2,143 +2,157 @@
 
 <div align="center">
 
-A comprehensive collection of **production-ready templates** and development tools designed to accelerate software development across multiple technologies and platforms. We provide battle-tested boilerplates that help developers get started quickly with best practices built-in.
+**The production stage of a three-stage lifecycle.**
 
-![ANSELMES](https://img.shields.io/badge/ANSELMES-Open%20Source%20Templates-blue?style=for-the-badge&logo=github)
+[![ANSELMES](https://img.shields.io/badge/ANSELMES-Production%20Estate-1f6feb?style=for-the-badge&logo=github&logoColor=white)][org]
+[![License](https://img.shields.io/badge/License-GPL--3.0-4c1?style=for-the-badge)][gpl]
 
-[![GitHub followers](https://img.shields.io/github/followers/sanselme?style=for-the-badge&logo=github)](https://github.com/sanselme)
-[![Profile Views](https://komarev.com/ghpvc/?username=anselmes&style=for-the-badge&color=brightgreen)](https://github.com/anselmes)
-
-</div>
-
-## 🚀 About
-
-### 🎯 What We Do
-
-- 🏗️ **Template Engineering**: Curated, production-ready project templates
-- ⚡ **Developer Experience**: Tools and workflows that boost productivity  
-- 🔧 **Multi-Platform Support**: From cloud-native to embedded systems
-- 📚 **Best Practices**: Security, testing, and deployment patterns included
-
-## 🛠️ Our Template Collection
-
-| **Category** | **Templates** | **Technologies** |
-|:---:|:---:|:---:|
-| 🌐 **Web & APIs** | HTTP/gRPC/Web Templates | ![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat&logo=swift&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white) |
-| ☁️ **Cloud Native** | Kubernetes/Knative Deploy | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) |
-| 🐧 **Systems** | Linux Kernel/Yocto/VMs | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white) |
-| 📡 **IoT/Embedded** | Zephyr RTOS | ![Embedded](https://img.shields.io/badge/Embedded-00979D?style=flat&logo=arduino&logoColor=white) |
-| 🔄 **Events** | CloudEvents Integration | ![CNCF](https://img.shields.io/badge/CNCF-231F20?style=flat&logo=cncf&logoColor=white) |
-
-### 🌟 Featured Templates
-
-#### 🚀 CloudEvents Go Template
-[![CodeQL](https://github.com/anselmes/ce-go-template/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/anselmes/ce-go-template/actions/workflows/github-code-scanning/codeql)
-
-Complete CloudEvents implementation with webhook support, event listeners, and TLS certificate generation.
-
-#### 🌐 Swift Web Development Suite
-- **HTTP Server Template**: Production-ready HTTP services
-- **gRPC Service Template**: Type-safe gRPC implementations  
-- **Web Template**: Modern web applications with Ignite framework
-
-#### ☸️ Kubernetes Deployment Templates
-- **Standard Deployments**: Full Kubernetes application deployment
-- **Knative Services**: Serverless container deployments
-- **Multi-cluster Support**: Production-grade cluster configurations
-
-#### 🐧 Linux System Templates
-- **Kernel Module (Rust)**: Safe kernel development
-- **Yocto Linux**: Custom embedded Linux distributions
-- **Development VMs**: Ubuntu-based development environments
-
-## 🤝 How to Contribute
-
-We welcome contributions from the community! Here's how you can get involved:
-
-### 🔧 For Developers
-
-```bash
-# 1. Fork and clone any template repository
-git clone https://github.com/anselmes/<template-name>
-
-# 2. Create a feature branch
-git checkout -b feature/your-improvement
-
-# 3. Make your changes and test thoroughly
-make test  # or equivalent for the template
-
-# 4. Submit a pull request with clear description
-```
-
-### 🐛 Bug Reports & Feature Requests
-
-- 🐛 Found a bug? [Open an issue](https://github.com/anselmes) with reproduction steps
-- 💡 Have an idea? We'd love to hear about new template requirements
-- 📖 Documentation improvements are always welcome
-
-### 🎨 Template Requests
-
-Missing a template for your tech stack? Let us know! We're always looking to expand our collection based on community needs.
-
-## 📚 Resources & Documentation
-
-### 🔗 Quick Links
-
-- 📖 **Documentation**: Each template includes comprehensive README with examples
-- 🏃‍♂️ **Quick Start**: All templates include `make` targets for easy setup
-- 🔐 **Security**: TLS certificate generation and security best practices
-- 🧪 **Testing**: Unit tests and integration examples included
-
-### 🛠️ Development Tools
-
-- **Homebrew Setup**: Brewfiles for consistent development environments
-- **VS Code Extensions**: Curated extension lists for optimal productivity  
-- **Container Support**: Docker and development container configurations
-- **CI/CD Ready**: GitHub Actions workflows included
-
-### 📋 Common Commands
-
-```bash
-# Build any project
-make build
-
-# Generate certificates
-make cert
-
-# Run tests
-make test
-
-# Clean up
-make clean
-```
-
-## 🍿 Fun Facts
-
-- ☕ **Powered by**: Coffee, late-night coding sessions, and community feedback
-- 🌍 **Global**: Templates used by developers across multiple continents
-- 🎯 **Focus**: Every template is production-tested and security-conscious
-- 🔄 **Continuous**: Regular updates with latest best practices and dependencies
-- 📈 **Growing**: New templates added based on emerging technologies and community requests
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sanselme&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sanselme&layout=compact&theme=radical&hide_border=true)
+[![cicd](https://img.shields.io/github/v/release/anselmes/cicd?label=cicd&color=1f6feb)][cicd]
+[![clact](https://img.shields.io/github/v/release/anselmes/clact?label=clact&color=1f6feb)][clact]
+[![config](https://img.shields.io/github/v/release/anselmes/config?label=config&color=1f6feb)][config]
+[![toolchain](https://img.shields.io/github/v/release/anselmes/toolchain?label=toolchain&color=1f6feb)][toolchain]
 
 </div>
 
----
+This page is the public face of the organization: what it is for, what is published
+here, and what you can reasonably expect from it. Everything below concerns the
+public repositories — internal working practice lives elsewhere.
 
-<div align="center">
+## Table of Contents
 
-**🚀 Ready to accelerate your development?**
+- [1. 🧭 What this organization is](#1--what-this-organization-is)
+- [2. 📦 What is public here](#2--what-is-public-here)
+- [3. 🔁 Upstream mirrors](#3--upstream-mirrors)
+- [4. 📄 Using this code](#4--using-this-code)
+- [5. 🤝 Issues and contributions](#5--issues-and-contributions)
+- [6. 📬 Contact](#6--contact)
+- [License](#license)
 
-[Browse Templates](https://github.com/anselmes) • [Get Started](https://github.com/anselmes) • [Contribute](https://github.com/anselmes)
+## 1. 🧭 What this organization is
 
-*Built with ❤️ by [Schubert Anselme](https://about.me/sanselme) • Licensed under GPL-3.0*
+ANSELMES is the production estate. What it publishes is largely the machinery the
+rest of the estate is built with — reusable CI/CD workflows, composite actions,
+charts, images, and development tooling.
 
-</div>
+This organization occupies the final stage of a three-stage lifecycle:
+
+1. **Exploration.** An idea begins as personal scratch work, outside this
+   organization.
+2. **Incubation.** Once it warrants sustained effort, it is built out, tested, and
+   hardened — still outside this organization.
+3. **Production.** When it matures, it is promoted here and development continues,
+   with production use as the target. This is the work the organization exists for.
+
+Two consequences are worth internalising. A repository arriving here has already
+been through incubation, so it is not a first draft — and it has not stopped
+moving either. **Production is what this work is being developed toward, not a
+claim that every repository has already arrived.**
+
+Most of the estate is private or internal, so what is visible from outside is a
+deliberate slice rather than the whole of it. A reference to a repository you
+cannot open is a repository you lack access to, not a dead link.
+
+## 2. 📦 What is public here
+
+Each repository carries its own README, and each is the place to start for the
+ground it covers.
+
+| Repository               | What it is                                                                          |
+| ------------------------ | ----------------------------------------------------------------------------------- |
+| [cicd][cicd]             | Reusable GitHub Actions workflows, development containers, and automation scripts   |
+| [clact][clact]           | Composite actions for building, packaging, signing, and publishing artifacts        |
+| [charts][charts]         | Helm charts, published as OCI artifacts                                             |
+| [config][config]         | Configuration files and templates for development environments and system setup     |
+| [toolchain][toolchain]   | Development environment, cluster bootstrap, security, and embedded hardware tooling |
+| [images][images]         | Container image definitions built and published from this organization              |
+| [zephyr-lang-swift][zls] | Swift language support for Zephyr RTOS, with CMake and Kconfig integration          |
+| [repository][repository] | The repository scaffold used when starting new work                                 |
+
+`repository` is the one scaffold still in use. The per-stack template repositories
+this organization once published have been retired, and their documentation is no
+longer maintained alongside them.
+
+## 3. 🔁 Upstream mirrors
+
+> [!NOTE]
+> Most of the public repository list is mirrors, not original work. Roughly two
+> dozen forks track upstream projects the estate builds from — kernel and
+> bootloader sources, Yocto and OpenEmbedded layers, silicon and RISC-V projects,
+> and networking appliances. They carry their upstream's licensing, conventions,
+> and branch names rather than ours, issues and pull requests against them belong 
+> upstream, and none of them is a pattern to follow for new work.
+
+The full inventory, mirrors and archives included, is at <https://github.com/orgs/anselmes/repositories>.
+
+## 4. 📄 Using this code
+
+Everything published here is offered as-is, without warranty. Licensing differs
+between the original repositories and the mirrors, so check before reusing
+anything:
+
+| Repository                             | Licence                                                              |
+| -------------------------------------- | -------------------------------------------------------------------- |
+| The original repositories in section 2 | GPL-3.0, with a `LICENSE` file in each                               |
+| Upstream mirrors                       | Whatever the upstream sets — Apache-2.0, GPL-2.0, MIT, or undeclared |
+
+Confirm a repository's default branch rather than assuming `main`. The original
+repositories use it, but the mirrors variously build from `master`, `trunk`
+(`meta-swift`) and `current` (`vyos-build`).
+
+## 5. 🤝 Issues and contributions
+
+Contributions are welcome on the original repositories, under the conventions the
+estate applies everywhere: signed commits, sign-off enforced organization-wide,
+`.editorconfig` honoured, and one subject per pull request. [CONTRIBUTING.md][contributing]
+has the detail, and an individual repository may set its own policy that supersedes
+it.
+
+What is not promised is a response time. These repositories are maintained
+alongside other work, review is best-effort, and no support commitment attaches to
+an issue or a pull request.
+
+Mirrors are the exception throughout: changes to them belong upstream, with the
+project that owns the code.
+
+> [!CAUTION]
+> Never report a security vulnerability in a public issue or pull request. Use the
+> private route described in [SECURITY.md][security].
+
+## 6. 📬 Contact
+
+| Route                              | Use it for                                        |
+| ---------------------------------- | ------------------------------------------------- |
+| <https://anselmes.com>             | The organization itself                           |
+| <schubert@anselmes.com>            | General enquiries                                 |
+| <git@anselm.es>                    | Security reports, access, and estate-wide matters |
+| Issues on the repository concerned | Anything specific to one repository               |
+
+## License
+
+Copyright (c) 2026 Schubert Anselme <schubert@anselm.es>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+[charts]: https://github.com/anselmes/charts
+[cicd]: https://github.com/anselmes/cicd
+[clact]: https://github.com/anselmes/clact
+[config]: https://github.com/anselmes/config
+[contributing]: https://github.com/anselmes/.github/blob/main/CONTRIBUTING.md
+[gpl]: https://www.gnu.org/licenses/gpl-3.0
+[images]: https://github.com/anselmes/images
+[org]: https://github.com/anselmes
+[repository]: https://github.com/anselmes/repository
+[security]: https://github.com/anselmes/.github/blob/main/SECURITY.md
+[toolchain]: https://github.com/anselmes/toolchain
+[zls]: https://github.com/anselmes/zephyr-lang-swift
